@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Budget, Category, CategoryRule, Transaction
+
+admin.site.register(Category)
+admin.site.register(CategoryRule)
+admin.site.register(Transaction)
+admin.site.register(Budget)
